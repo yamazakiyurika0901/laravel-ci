@@ -35,5 +35,5 @@ class ArticleControllerTest extends TestCase
 
           $response->assertStatus(200)
               ->assertViewIs('articles.create');
-      }      
+      }
 }
